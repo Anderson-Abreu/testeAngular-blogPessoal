@@ -4,9 +4,11 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EntarComponent } from './entar/entar.component';
 
 const routes: Routes = [
-  {path:'', redirectTo:'entrar', pathMatch:'full'},
-  {path:'entrar', component:EntarComponent},
-  {path:'cadastrar', component:CadastrarComponent}
+  {path:'',redirectTo:'entrar',pathMatch:'full'},
+
+  
+  {path:'entrar',component: EntarComponent},
+  {path:'cadastrar',component: CadastrarComponent}
 
 ];
 
